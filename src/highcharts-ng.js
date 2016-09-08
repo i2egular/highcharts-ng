@@ -163,6 +163,9 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           }
         }
       });
+      if (config.tooltip) {
+        mergedOptions.tooltip = config.tooltip;
+      }
       if(config.drilldown) {
         mergedOptions.drilldown = config.drilldown;
       };
