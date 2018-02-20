@@ -1,6 +1,6 @@
 /**
  * highcharts-ng
- * @version v0.0.13-dev - 2016-09-08
+ * @version v0.0.13-dev - 2018-02-20
  * @link https://github.com/pablojim/highcharts-ng
  * @author Barry Fitzgerald <>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -171,9 +171,6 @@ if (typeof module !== 'undefined' && typeof exports !== 'undefined' && module.ex
           }
         }
       });
-      if (config.time) {
-        mergedOptions.time = config.time;
-      }
       if (config.tooltip) {
         mergedOptions.tooltip = config.tooltip;
       }
